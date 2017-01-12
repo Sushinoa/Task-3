@@ -1,0 +1,62 @@
+@import "media.css";
+body {
+    font-family: "ArialRegular",  sans-serif;
+    font-size: 16px;
+    position: relative;
+
+}
+
+header {
+    min-height: 50px;
+    background-color: #333333;
+}
+.content{
+    width: 100%;
+    background-color: #6b7e8d;
+}
+
+.panel-default{
+   width: 70%;
+}
+.panel-title{
+    font-family: "ArialBold";
+    font-size: 20px;
+    color: #666666;
+}
+.media-object{
+    width: 40px;
+    height: 40px;
+    border: 3px solid #ffffff;
+
+}
+.img{
+    width: 100%;
+}
+/*.imd_border{*/
+    /*width: 42px;*/
+    /*height: 42px;*/
+    /*border: 1px solid gray;*/
+    /*background-color: #ffffff;*/
+
+/*}*/
+.tool_tip{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 90px;
+    z-index: 9999;
+    position: absolute;
+    /*display: none;*/
+    width: 230px;
+    min-height: 190px;
+    background-color: #f9fbd9;
+
+}
+.tool_tip_container{
+    margin: 0;
+    padding: 10px;
+}
+.header_cotainer{
+    display: flex;
+    justify-content: space-between;
+}

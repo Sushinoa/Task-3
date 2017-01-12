@@ -1,0 +1,19 @@
+{
+  "name": "Task-3",
+  "description": "Web page layout",
+  "main": "",
+  "authors": [
+    "Сушинская Оксана  <o.a.sushinskaya@gmail.com>"
+  ],
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/Sushinoa/Task-1.git"
+  },
+  "homepage": "",
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.6",
+    "less":"^2.7.1"
+  }
+}
