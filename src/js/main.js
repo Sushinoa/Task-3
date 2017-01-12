@@ -1,19 +1,24 @@
+jQuery(document).ready(function ($) {
+    $('.real-show-hint').on("click", function (e) {
+        e = e || window.event;
+        e.preventDefault();
+        var ypos = $(this).offset().top + 24;
+        var xpos = $(this).offset().left;
+        var RealHint = $(this).data('hint');
+        $(RealHint).css('top', ypos);
+        $(RealHint).css('left', xpos);
+        $(RealHint).toggle('fast');
+        return;
+    });
 
-// jQuery(document).ready(function($) {
-//     $("[data-tooltip]").mousemove(function (eventObject) {
-//         $data_tooltip = $(this).attr("data-tooltip");
-//         $(".tool_tip").text($data_tooltip)
-//             .css({
-//                 "top" : eventObject.pageY + 5,
-//                 "left" : eventObject.pageX + 5
-//             })
-//             .show();
-//     }).mouseout(function () {
-//         $(".tool_tip").hide()
-//             .text("")
-//             .css({
-//                 "top" : 0,
-//                 "left" : 0
-//             });
-//     });
-// });
+    $('.prm-cross').on('click', function () {
+        $(this).parent().hide('fast');
+        return false;
+    });
+
+    document.onclick = function (e) {
+        if ($(e.target).hasClass('real-hint') == false)
+            $('.real-hint').hide('fast');
+        return;
+    }
+});

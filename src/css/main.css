@@ -9,6 +9,44 @@ body {
     width: 100%;
     min-height: 45px;
     background-color: #4a5760;
+    position: relative;
+}
+.disk{
+    width: 20px;
+    height: 20px;
+    border-radius:10px;
+    top: 58px;
+    left: 122px;
+
+    /*background-color: #b7cc77;*/
+    position: absolute;
+    box-shadow: #4e5c67 1px 1px 0 0 ;
+    background: radial-gradient(at 4px 2px,
+    #d7ee96 25%,
+    #d3e898 29%,
+    #b7cc77
+    );
+
+}
+.dd1{
+    width: 5px;
+    height: 5px;
+    background: #d7ee96;
+    border: 1px solid #e0e0e0;
+    position: absolute;
+    left: 9%;
+    top: -4%;
+    transform: rotate(45deg);
+    border-bottom: none;
+    border-right: none;
+
+}
+.disk span{
+    font-family: "ArialBold";
+    font-size: 14px;
+    color: #5f7073;
+    text-shadow: 2px 0 0 #f5f8ec;
+    margin-left: 4px;
 }
 .navi_header{
     font-family: "ArialBold";
@@ -50,14 +88,21 @@ body {
 .logout{
     width: 75px;
     border-left:2px solid #808c93;
+    position: relative;
 
 }
+
 .glyphicon {
     color: #bde2ff;
     margin-left: 9px;
     margin-right: 7px;
 }
-
+.glyphicon-eject{
+    color: #bde2ff;
+    margin-left: 9px;
+    margin-right: 9px;
+    font-size: 9px;
+}
 .btn-header{
 
     font-family: "ArialBold";
@@ -154,7 +199,6 @@ body {
     margin-left: 90px;
     z-index: 9999;
     position: absolute;
-    /*display: none;*/
     width: 230px;
     min-height: 190px;
     background-color: #f9fbd9;
