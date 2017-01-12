@@ -29,14 +29,14 @@ body {
 
 }
 .dd1{
-    width: 5px;
-    height: 5px;
-    background: #d7ee96;
-    border: 1px solid #e0e0e0;
+    width: 6px;
+    height: 6px;
+    background: #d3e898;
+    border: 1px solid #b7cc77;
     position: absolute;
-    left: 9%;
-    top: -4%;
-    transform: rotate(45deg);
+    left: 10%;
+    top: 22%;
+    transform: rotate(96deg);
     border-bottom: none;
     border-right: none;
 
@@ -213,7 +213,24 @@ body {
     justify-content: flex-start;
 }
 .img{
-    width: 19%;
-    height: 19%;
-    border:2px solid #ffffff;
+    background-image: url("../../images/foto.jpg");
+    width: 100%;
+    height: 50%;
+
+}
+.img_fon{
+    width: 100%;
+    margin: 0;
+    padding: 3px;
+    /*position: relative;*/
+
+}
+.img_border{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 24%;
+    min-height: 45px;
+    background-color: #ffffff;
+    border: 1px solid #d0dfec;
 }
