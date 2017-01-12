@@ -113,6 +113,7 @@ body {
 
 .panel-default{
    width: 70%;
+    position: relative;
 }
 .panel-title{
     font-family: "ArialBold";
@@ -126,7 +127,18 @@ body {
 
 }
 
-
+.dd{
+    width: 10px;
+    height: 10px;
+    background: #f3f3f3;
+    border: 1px solid #e0e0e0;
+    position: absolute;
+    left: 9%;
+    top: -4%;
+    transform: rotate(45deg);
+    border-bottom: none;
+    border-right: none;
+}
 
 /*.imd_border{*/
     /*width: 42px;*/
