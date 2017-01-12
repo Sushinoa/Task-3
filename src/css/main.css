@@ -12,15 +12,15 @@ body {
     position: relative;
 }
 .disk{
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     border-radius:10px;
     top: 58px;
     left: 122px;
-
+    transform: rotate(96deg);
     /*background-color: #b7cc77;*/
-    position: absolute;
-    box-shadow: #4e5c67 1px 1px 0 0 ;
+    /*position: absolute;*/
+    box-shadow: #4e5c67 2px 0 0 0 ;
     background: radial-gradient(at 4px 2px,
     #d7ee96 25%,
     #d3e898 29%,
@@ -28,25 +28,26 @@ body {
     );
 
 }
-.dd1{
-    width: 6px;
-    height: 6px;
+.notification{
+    width: 10px;
+    height: 10px;
     background: #d3e898;
-    border: 1px solid #b7cc77;
     position: absolute;
-    left: 10%;
-    top: 22%;
-    transform: rotate(96deg);
-    border-bottom: none;
-    border-right: none;
+    left: 13%;
+    top: -4%;
+    transform: rotate(263deg);
 
 }
+
 .disk span{
+    position: absolute;
     font-family: "ArialBold";
-    font-size: 14px;
+    font-size: 12px;
     color: #5f7073;
     text-shadow: 2px 0 0 #f5f8ec;
-    margin-left: 4px;
+    margin-left: 3px;
+    margin-top: 2px;
+    /*transform: rotate(45deg);*/
 }
 .navi_header{
     font-family: "ArialBold";
@@ -83,8 +84,12 @@ body {
 
 }
 .navi_header a:hover{
-    color: #d6e3ee;
+    color: #8c9daa;
 }
+.navi_header a:active{
+    color: #bbcddc;
+}
+
 .logout{
     width: 75px;
     border-left:2px solid #808c93;
@@ -116,6 +121,7 @@ body {
 .settings{
     width: 70%;
     margin-top: 30px;
+    position: relative;
 }
 .menu{
     width:100%;
@@ -128,6 +134,7 @@ body {
     flex-direction: row;
     align-items: flex-end;
     justify-content: flex-start;
+    position: relative;
 }
 .menu_settings li{
     list-style-type: none;
@@ -144,6 +151,10 @@ body {
 .menu_settings a:hover{
     color: #8c9daa;
 }
+.menu_settings a:active{
+    color: #bbcddc;
+}
+
 .company_settings{
     margin-left: 130px;
 }
@@ -151,6 +162,7 @@ body {
 .content{
     width: 100%;
     background-color: #6b7e8d;
+    /*padding-bottom: 100px;*/
 }
 
 .panel-default{
@@ -183,6 +195,7 @@ body {
 }
 
 .tool_tip{
+    /*display: none;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -282,4 +295,13 @@ body {
     font-size: 12px;
     color: #6689a6;
     text-decoration: underline;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    background-color:#46535c;
+    width:100%;
+    height: 80px;
+    color: #ccc;
+    text-align: center;
 }
