@@ -147,10 +147,7 @@ body {
 .company_settings{
     margin-left: 130px;
 }
-/*.header {*/
-    /*min-height: 50px;*/
-    /*background-color: #333333;*/
-/*}*/
+
 .content{
     width: 100%;
     background-color: #6b7e8d;
@@ -185,13 +182,6 @@ body {
     border-right: none;
 }
 
-/*.imd_border{*/
-    /*width: 42px;*/
-    /*height: 42px;*/
-    /*border: 1px solid gray;*/
-    /*background-color: #ffffff;*/
-/*dee7ef*/
-/*}*/
 .tool_tip{
     display: flex;
     flex-direction: column;
@@ -209,6 +199,7 @@ body {
 .tool_tip_container{
     margin: 0;
     padding: 10px;
+    list-style-type: none;
 }
 .header_cotainer{
     display: flex;
@@ -253,6 +244,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    margin-top: 5px;
 }
 .info_container_feft{
     margin-left: 5px;
@@ -281,4 +273,13 @@ body {
     font-size: 41px;
     color: #ffffff;
 
+}
+.info_botoom{
+  text-align: right;
+}
+.info_botoom a{
+    font-family: "ArialRegular";
+    font-size: 12px;
+    color: #6689a6;
+    text-decoration: underline;
 }
