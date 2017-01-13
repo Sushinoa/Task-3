@@ -160,7 +160,7 @@ body {
 .content{
     width: 100%;
     background-color: #6b7e8d;
-
+    padding-bottom: 150px;
 }
 
 .panel-default{
