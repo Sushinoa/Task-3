@@ -160,7 +160,7 @@
                 </div>
                 <ul class="items ">
                     <li class="items_person">
-                        <div class="item_person_left ">
+                        <div class="item_person_left real-hint" id="real-hint">
                             <div class="img_fon">
                                 <a href="#"><img class="img_person" src="../images/foto.jpg" alt="Personal image"></a>
                             </div>
@@ -170,7 +170,7 @@
                         <div class="item_person_rigth">
                             <div class="block_top">
                                 <div class="info_calendar">
-                                    <p class="info_person">Christina Frerichs <span class="time">asks for time off.</span><span class="day">5 days.Sicness</span></p>
+                                    <p class="info_person"><span class="real-hint">Christina Frerichs</span> <span class="time">asks for time off.</span><span class="day">5 days.Sicness</span></p>
                                 </div>
                                 <div class="status_bought">
                                     <span class="status_name_bought">Bought</span>
@@ -303,7 +303,16 @@
         </div>
     </div>
 </main>
-<div class="tool_tip">
+
+<footer class="footer">
+<p class="pull-left"> Copyright © Footer E-commerce. </p>
+</footer>
+
+<script src="../bower_components/jquery/dist/jquery.js"></script>
+<script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<script src="../src/js/main.js"></script>
+
+<div class="tool_tip real-show-hint" data-hint="#real-hint" >
     <ul class=" tool_tip_container">
         <li class="header_cotainer">
             <div class="img_border">
@@ -337,13 +346,5 @@
         </li>
     </ul>
 </div>
-<footer class="footer">
-<p class="pull-left"> Copyright © Footer E-commerce. </p>
-</footer>
-
-<script src="../bower_components/jquery/dist/jquery.js"></script>
-<script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
-<script src="../src/js/main.js"></script>
-
 </body>
 </html>
