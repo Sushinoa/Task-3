@@ -198,6 +198,9 @@ body {
     border-bottom: none;
     border-right: none;
 }
+.glyphicon_pen{
+    color:#aaaaaa;
+}
 
 .tool_tip{
     /*display: none;*/
@@ -529,7 +532,8 @@ body {
     border-right: none;
 }
 .answer_bought_new{
-    margin-left: 64%;
+    float: right;
+    margin-right: 4%;
 }
 .status_name_aproved{
     font-family: "ArialRegular";
