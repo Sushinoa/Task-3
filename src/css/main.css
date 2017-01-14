@@ -173,6 +173,7 @@ body {
     font-family: "ArialBold";
     font-size: 20px;
     color: #666666;
+    margin-left: 3%;
 }
 .media-object{
     width: 42px;
@@ -199,14 +200,16 @@ body {
 }
 
 .tool_tip{
-    display: none;
-    /*display: flex;*/
+    /*display: none;*/
+    display: flex;
     flex-direction: column;
     justify-content: center;
     margin-left: 90px;
     z-index: 9999;
+    top:16%;
+    left:-2%;
     position: absolute;
-    width: 230px;
+    width: 20%;
     min-height: 190px;
     background-color: #f9fbd9;
     border: 1px solid #a6a6a6;
@@ -422,6 +425,7 @@ body {
     font-family: "ArialRegular";
     font-size: 12px;
     color: #6689a6;
+    vertical-align: bottom;
 
 }
 .block_bottom_ansver .answer{
