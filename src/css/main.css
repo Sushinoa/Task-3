@@ -211,8 +211,8 @@ body {
     justify-content: center;
     margin-left: 90px;
     z-index: 9999;
-    top:16%;
-    left:-1%;
+    /*top:16%;*/
+    /*left:-1%;*/
     position: absolute;
     width: 20%;
     min-height: 190px;
