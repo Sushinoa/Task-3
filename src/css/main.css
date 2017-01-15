@@ -414,6 +414,7 @@ body {
 .comment{
     width: 88%;
     height: 28px;
+    border-radius: 5px;
     background-color: #e9f3fb;
     position: relative;
 }
@@ -423,7 +424,10 @@ body {
     height: 28px;
     border-left: 1px solid #d0dfec;
     background-color: #f4f8fc;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
 }
+
 
 
 .answer{
@@ -471,6 +475,7 @@ body {
     height: 28px;
     background-color: #e9f3fb;
     position: relative;
+    border-radius: 5px;
 }
 .comment_bought p{
     font-family: "ArialRegular";
@@ -502,7 +507,7 @@ body {
     height: 80px;
     background-color: #e9f3fb;
     position: relative;
-
+    border-radius: 5px;
 }
 .comment_new p{
     font-family: "ArialRegular";
@@ -568,7 +573,7 @@ body {
     height: 60px;
     background-color: #e9f3fb;
     position: relative;
-
+    border-radius: 5px;
 }
 .comment_aproved p{
     font-family: "ArialRegular";

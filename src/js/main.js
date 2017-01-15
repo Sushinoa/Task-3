@@ -1,6 +1,7 @@
 jQuery(document).ready(function ($) {
     $('.show-hint').on("click", function (e) {
-        $('.tool_tip').fadeIn(300);
+        $('.tool_tip').fadeIn(500);
+
 
     //     e = e || window.event;
     //     e.preventDefault();
@@ -23,8 +24,23 @@ jQuery(document).ready(function ($) {
     //         $('.real-hint').hide('fast');
        // return;
     });
+    $('.show-hint2').on("click", function (e) {
+        e.preventDefault();
+        // var ypos = $(this).position();
+        // var xpos = $(this).position();
+        var ypos = $(this).offset();
+        var xpos = $(this).offset();
+        // var RealHint = $(this).data('hint');
+        // $(RealHint).css('top', ypos);
+        // $(RealHint).css('left', xpos);
+        // $(RealHint).toggle('fast');
+
+        $('.tool_tip').fadeIn(500);
+
+
+    });
     $('.tool_tip').on('click',function (e) {
-        $('.tool_tip').fadeOut(300);
+        $('.tool_tip').fadeOut(500);
 
     });
     // document.onclick = function (e) {
